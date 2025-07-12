@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
+    "build": "echo 'No build step required for Node.js server'",
     "test": "jest",
     "migrate": "node src/database/migrate.js"
   },
